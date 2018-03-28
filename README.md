@@ -1,6 +1,6 @@
-# style
-Style Guide for Fully Hatter
+# Style Guide for Fully Hatter
 
+## Naming
 Java | Python | JavaScript (Node.js) | JSON | HTML
 --- | --- | --- | --- | ---
 FileName.java | file_name.py | file_name.js | file-name.json | file-name.html
