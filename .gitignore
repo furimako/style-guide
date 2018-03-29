@@ -1,0 +1,13 @@
+
+atom_config/.apm
+atom_config/.node-gyp
+atom_config/blob-store
+atom_config/compile-cache
+atom_config/recovery
+atom_config/split-diff
+atom_config/storage
+
+github.cson
+init.coffee
+snippets.cson
+styles.less
