@@ -1,28 +1,8 @@
 "*":
-  "atom-beautify":
-    c:
-      beautify_on_save: true
-    cpp:
-      beautify_on_save: true
-      default_beautifier: "clang-format"
-    executables:
-      "clang-format":
-        path: "/Applications/clang+llvm-4.0.1-x86_64-apple-macosx10.9.0/bin/clang-format"
-    general:
-      _analyticsUserId: "63ff2de1-36b5-48f5-b935-80618e59fcc6"
-      analytics: false
-    js:
-      beautify_on_save: true
-      brace_style: "collapse-preserve-inline"
-      end_with_newline: true
-    python:
-      beautify_on_save: true
   "atom-package-deps":
     ignored: [
       "linter-ui-default"
     ]
-  "autocomplete-clang":
-    "std c++": "c++14"
   core:
     allowPendingPaneItems: false
     audioBeep: false
@@ -45,8 +25,8 @@
     tabType: "soft"
   "exception-reporting":
     userId: "3d695c80-cfe5-0bd8-6002-d01ebb4dc257"
-  "linter-clang":
-    clangDefaultCppFlags: "-Wall -std=c++14"
+  jsformat:
+    max_preserve_newlines: 2
   "linter-eslint":
     disableWhenNoEslintConfig: false
     useGlobalEslint: true
