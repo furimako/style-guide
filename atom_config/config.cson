@@ -49,11 +49,14 @@
     clangDefaultCppFlags: "-Wall -std=c++14"
   "linter-eslint":
     disableWhenNoEslintConfig: false
-  "linter-ui-default": {}
+    useGlobalEslint: true
+  "linter-ui-default":
+    panelHeight: 165
   "markdown-preview":
     breakOnSingleNewline: true
     useGitHubStyle: true
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   wordcount:
