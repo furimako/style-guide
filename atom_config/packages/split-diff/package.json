@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
+        "raw": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
-        "spec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
+        "rawSpec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
+        "spec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/apm-install-dir-11805-3331-1l36y5p.1a9p8ehfr"
+      "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/apm-install-dir-118914-25629-1jn6f90.kcnpcik9"
     ]
   ],
-  "_from": "../d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
-  "_id": "split-diff@1.5.2",
+  "_from": "../d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
+  "_id": "split-diff@1.5.3",
   "_inCache": true,
   "_location": "/split-diff",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
+    "raw": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
-    "spec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
+    "rawSpec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
+    "spec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
-  "_shasum": "ad959b16012899148985046e33819bfc589fdc8e",
+  "_resolved": "file:../d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
+  "_shasum": "dae45b954c6d100a29b1afabae249b2006262154",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-11805-3331-1je43jk.hlq6c4n29/package.tgz",
-  "_where": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/apm-install-dir-11805-3331-1l36y5p.1a9p8ehfr",
+  "_spec": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/d-118914-25629-1imzl5x.hy77rpb9/package.tgz",
+  "_where": "/private/var/folders/_h/mm54ky2d0bqbr2pqgp8fvf480000gn/T/apm-install-dir-118914-25629-1jn6f90.kcnpcik9",
   "bugs": {
     "url": "https://github.com/mupchrch/split-diff/issues"
   },
@@ -76,5 +76,5 @@
     "type": "git",
     "url": "git+https://github.com/mupchrch/split-diff.git"
   },
-  "version": "1.5.2"
+  "version": "1.5.3"
 }
