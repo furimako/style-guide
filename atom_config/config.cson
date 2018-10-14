@@ -32,6 +32,7 @@
     useGlobalEslint: true
   "linter-ui-default":
     panelHeight: 165
+    showPanel: true
   "markdown-preview":
     breakOnSingleNewline: true
     useGitHubStyle: true
