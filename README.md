@@ -1,4 +1,4 @@
-# MEMO for Fully Hatter
+# Style Guide for Fully Hatter
 
 ## Naming
 Java | Python | JavaScript (Node.js) | JSON | HTML
