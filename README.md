@@ -15,12 +15,15 @@ variableName | variable_name | variableName | - | -
 - spell checker
 
 ## Initializing Git
+```bash
 sudo git config --system alias.co checkout
 sudo git config --system alias.br branch
 sudo git config --system alias.cm 'commit -m'
 sudo git config --system alias.st status
+```
 
 ## Atom (keymap.cson)
+```cson
 'body':
     'cmd-t': 'application:new-file'
     'ctrl-tab ^ctrl': 'unset!'
@@ -30,3 +33,4 @@ sudo git config --system alias.st status
 
 '.platform-darwin':
     'cmd-n': 'fuzzy-finder:toggle-file-finder'
+```
