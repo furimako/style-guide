@@ -14,8 +14,14 @@ variableName | variable_name | variableName | - | -
 - linter
 - spell checker
 
-## Initializing Git
+## Initializing Command
 ```bash
+sudo timedatectl set-timezone Asia/Tokyo
+
+git config --global user.name "FullyHatter"
+git config --global user.email "furimako@gmail.com"
+git config --global push.default simple
+
 sudo git config --system alias.co checkout
 sudo git config --system alias.br branch
 sudo git config --system alias.cm 'commit -m'
