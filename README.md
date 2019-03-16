@@ -19,12 +19,6 @@ variableName | variable_name | variableName | - | -
 # add user
 adduser furimako
 usermod -aG sudo furimako
-
-# firewall settings
-ufw app list
-ufw allow OpenSSH
-ufw enable
-ufw status
 rsync --archive --chown=furimako:furimako ~/.ssh /home/furimako
 
 # basic settings
