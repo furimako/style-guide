@@ -14,12 +14,28 @@ variableName | variable_name | variableName | - | -
 - linter
 - spell checker
 
-## Initializing Git
+## Initializing Commands
 ```bash
+# add user
+adduser furimako
+usermod -aG sudo furimako
+
+# firewall settings
+ufw app list
+ufw allow OpenSSH
+ufw enable
+ufw status
+rsync --archive --chown=furimako:furimako ~/.ssh /home/furimako
+
+# basic settings
+sudo timedatectl set-timezone Asia/Tokyo
+sudo apt update
+sudo apt -y dist-upgrade
+
+# git
 git config --global user.name "FullyHatter"
 git config --global user.email "furimako@gmail.com"
 git config --global push.default simple
-
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.cm 'commit -m'
