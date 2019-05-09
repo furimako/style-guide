@@ -20,6 +20,9 @@ variableName | variable_name | variableName | - | -
 adduser furimako
 usermod -aG sudo furimako
 rsync --archive --chown=furimako:furimako ~/.ssh /home/furimako
+sudo visudo
+## Put below line after all other lines in the sudoers file.
+## furimako ALL=(ALL) NOPASSWD: ALL
 
 # basic settings
 sudo timedatectl set-timezone Asia/Tokyo
