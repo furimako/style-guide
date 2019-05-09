@@ -4,7 +4,7 @@
     "description": "Style Guide for Fully Hatter",
     "author": "Fully Hatter <furimako@gmail.com>",
     "license": "MIT",
-    "repository": "github:FullyHatter/style-guide",
+    "repository": "github:furimako/style-guide",
     "engines": {
         "node": ">=10.14.1"
     },

@@ -27,7 +27,7 @@ sudo apt update
 sudo apt -y dist-upgrade
 
 # git
-git config --global user.name "FullyHatter"
+git config --global user.name "furimako"
 git config --global user.email "furimako@gmail.com"
 git config --global push.default simple
 git config --global alias.co checkout
