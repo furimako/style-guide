@@ -1,4 +1,4 @@
-# Style Guide for Fully Hatter
+# Style Guide for furimako
 
 ## Naming
 Java | Python | JavaScript (Node.js) | JSON | HTML
