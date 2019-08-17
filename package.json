@@ -1,16 +1,16 @@
 {
     "name": "style-guide",
     "version": "1.0.0",
-    "description": "Style Guide for Fully Hatter",
-    "author": "Fully Hatter <furimako@gmail.com>",
+    "description": "Style Guide for furimako",
+    "author": "furimako <furimako@gmail.com>",
     "license": "MIT",
     "repository": "github:furimako/style-guide",
     "engines": {
         "node": ">=10.14.1"
     },
     "devDependencies": {
-        "eslint": "^5.10.0",
-        "eslint-config-airbnb-base": "^13.1.0",
-        "eslint-plugin-import": "^2.14.0"
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2"
     }
 }
