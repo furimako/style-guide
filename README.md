@@ -20,6 +20,7 @@ variableName | variable_name | variableName | - | -
 git config --global user.name "furimako"
 git config --global user.email "furimako@gmail.com"
 git config --global push.default simple
+git config --global pull.rebase false
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.cm 'commit -m'
