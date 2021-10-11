@@ -42,4 +42,6 @@ ssh-copy-id furimako@[public IP address]
 # login with 'furimako' user
 sudo nano /etc/ssh/sshd_config  # 'PasswordAuthentication no', 'PasswordAuthentication no'
 sudo systemctl restart sshd
+
+# you need to open a Support ticket for sending emails (https://www.linode.com/community/questions/19082/i-just-created-my-first-linode-and-i-cant-send-emails-why)
 ```
