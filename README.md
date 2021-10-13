@@ -45,3 +45,9 @@ sudo systemctl restart sshd
 
 # you need to open a Support ticket for sending emails (https://www.linode.com/community/questions/19082/i-just-created-my-first-linode-and-i-cant-send-emails-why)
 ```
+
+## How to renew certbot (on Ubuntu 20.04)
+```bash
+sudo certbot renew
+sudo chmod 444 /etc/letsencrypt/live/furimako.com/privkey.pem
+```
