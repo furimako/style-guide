@@ -29,24 +29,25 @@ git config --global core.quotepath false  # 日本語対応
 ```
 
 ## Initializing Commands (Linode - Ubuntu 20.04)
-```bash
-# login with root user
-apt update && apt upgrade
-adduser furimako
-adduser furimako sudo
+- add user & configure ssh (on Ubuntu)
+  ```bash
+  # login with root user
+  apt update && apt upgrade
+  adduser furimako
+  adduser furimako sudo
 
-# from local machine
-ssh-keygen -b 4096  # run the line only for the first time
-ssh-copy-id furimako@[public IP address]
+  # login with 'furimako' user
+  sudo nano /etc/ssh/sshd_config  # 'PasswordAuthentication no', 'PasswordAuthentication no'
+  sudo systemctl restart sshd
+- generate ssh-key (on local machine)
+  ```bash
+  ssh-keygen -b 4096  # run the line only for the first time
+  ssh-copy-id furimako@[public IP address]
+  ```
+-  open Linode Support ticket for sending emails
+    -  detailed instruction is [here](https://www.linode.com/community/questions/19082/i-just-created-my-first-linode-and-i-cant-send-emails-why).
 
-# login with 'furimako' user
-sudo nano /etc/ssh/sshd_config  # 'PasswordAuthentication no', 'PasswordAuthentication no'
-sudo systemctl restart sshd
-
-# you need to open a Support ticket for sending emails (https://www.linode.com/community/questions/19082/i-just-created-my-first-linode-and-i-cant-send-emails-why)
-```
-
-## How to renew certbot (on Ubuntu 20.04)
+## How to renew certbot (Ubuntu 20.04)
 ```bash
 sudo certbot renew
 sudo chmod 444 /etc/letsencrypt/live/furimako.com/privkey.pem
