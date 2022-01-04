@@ -47,11 +47,5 @@ git config --global core.quotepath false  # 日本語対応
 -  open Linode Support ticket for sending emails
     -  detailed instruction is [here](https://www.linode.com/community/questions/19082/i-just-created-my-first-linode-and-i-cant-send-emails-why).
 
-## renew certbot (Ubuntu 20.04)
-```bash
-sudo certbot renew
-sudo chmod 444 /etc/letsencrypt/live/furimako.com/privkey.pem
-```
-
 ## enable automatic updates (Ubuntu 20.04)
 see [it](https://linoxide.com/enable-automatic-updates-on-ubuntu-20-04/).
