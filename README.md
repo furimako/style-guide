@@ -29,20 +29,21 @@ git config --global core.quotepath false  # 日本語対応
 ```
 
 ## Initializing Commands (Linode - Ubuntu 20.04)
-- add user & configure ssh (on Ubuntu)
+- [on Ubuntu with root] add user
   ```bash
-  # login with root user
   apt update && apt upgrade
-  adduser furimako
-  adduser furimako sudo
-
-  # login with 'furimako' user
-  sudo nano /etc/ssh/sshd_config  # 'PasswordAuthentication no', 'PasswordAuthentication no'
-  sudo systemctl restart sshd
-- generate ssh-key (on local machine)
+  adduser (username)
+  adduser (username) sudo
+  ```
+- [on local machine] generate ssh-key & copy it to the server
   ```bash
   ssh-keygen -b 4096  # run the line only for the first time
-  ssh-copy-id furimako@[public IP address]
+  ssh-copy-id (username)@(public IP address)
+  ```
+- [on Ubuntu with (username)] set PasswordAuthentication to "no"
+  ```bash
+  sudo nano /etc/ssh/sshd_config  # set PasswordAuthentication to "no"
+  sudo systemctl restart sshd
   ```
 -  open Linode Support ticket for sending emails
     -  detailed instruction is [here](https://www.linode.com/community/questions/19082/i-just-created-my-first-linode-and-i-cant-send-emails-why).
