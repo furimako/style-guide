@@ -23,6 +23,7 @@
         "no-continue": "off",
         "no-await-in-loop": "off",
         "no-underscore-dangle": "off",
-        "import/order": "off"
+        "import/order": "off",
+        "prefer-destructuring": "off"
     }
 }
