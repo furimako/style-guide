@@ -28,6 +28,7 @@
         "no-underscore-dangle": "off",
         "import/order": "off",
         "prefer-destructuring": "off",
-        "object-curly-newline": ["error", { "ImportDeclaration": "never" }]
+        "object-curly-newline": ["error", { "ImportDeclaration": "never" }],
+        "vue/max-attributes-per-line": "off"
     }
 }
