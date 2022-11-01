@@ -1,17 +1,19 @@
 {
     "env": {
         "browser": true,
-        "es6": true,
+        "es2021": true,
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:vue/vue3-recommended"
     ],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
-    "parserOptions": { "ecmaVersion": 2018 },
+    "parserOptions": { "ecmaVersion": "latest" },
+    "plugins": ["vue"],
     "rules": {
         "indent": ["error", 4],
         "semi": ["error", "never", { "beforeStatementContinuationChars": "never" }],
@@ -25,6 +27,7 @@
         "no-await-in-loop": "off",
         "no-underscore-dangle": "off",
         "import/order": "off",
-        "prefer-destructuring": "off"
+        "prefer-destructuring": "off",
+        "object-curly-newline": ["error", { "ImportDeclaration": "never" }]
     }
 }
