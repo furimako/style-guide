@@ -22,31 +22,31 @@
         "no-trailing-spaces": ["error", { "skipBlankLines": true }],
         "comma-dangle": ["error", "never"],
         "no-console": "off",
-        // "no-use-before-define": "off",
         "no-use-before-define": ["error", { "functions": false }],
         "no-continue": "off",
         "no-await-in-loop": "off",
         "no-underscore-dangle": "off",
-        "import/order": "off",
         "prefer-destructuring": "off",
         "object-curly-newline": ["error", { "ImportDeclaration": "never" }],
-        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-        "no-restricted-syntax": [ 
-            "error", 
-            { 
-                "selector": "ForInStatement", 
-                "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.", 
+        "no-restricted-syntax": [
+            "error",
+            {
+                "selector": "ForInStatement",
+                "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
             },
-            { 
-                "selector": "LabeledStatement", 
-                "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.", 
-            }, 
-            { 
-                "selector": "WithStatement", 
-                "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize.", 
+            {
+                "selector": "LabeledStatement",
+                "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+            },
+            {
+                "selector": "WithStatement",
+                "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
             }
         ],
+        "import/order": "off",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
         "vue/html-indent": ["error", 4],
-        "vue/max-attributes-per-line": "off"
+        "vue/max-attributes-per-line": "off",
+        "vue/singleline-html-element-content-newline": "off"
     }
 }
