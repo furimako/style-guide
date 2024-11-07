@@ -1,0 +1,37 @@
+{
+  "functions": {
+    "build": {
+      "useArtifactRegistry": true
+    },
+    "source": "functions",
+    "codebase": "default",
+    "ignore": [
+      "node_modules",
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "*.local"
+    ]
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/resume",
+        "destination": "/resume.html"
+      },
+      {
+        "source": "/cv",
+        "destination": "/cv.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
